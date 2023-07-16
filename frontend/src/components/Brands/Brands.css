@@ -1,0 +1,26 @@
+.brands-main-container .brand-heading{
+    color: #858585;
+    text-align: start;
+
+    font-size: 50px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.36px;
+}
+.brands-main-container .brand-description{
+    color: #818181;
+    text-align: start;
+font-size: 30px;
+font-family: Lato;
+line-height: 40px;
+line-break: loose;
+letter-spacing: 0.2px;
+}
+.brand-icon-container *{
+margin-inline: 16px;
+}
+.creator-discovery{
+    color: white;
+    text-align: start;
+}
