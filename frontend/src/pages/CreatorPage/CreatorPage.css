@@ -1,0 +1,47 @@
+.creator-page-container {
+  color: white;
+}
+.creator-page-home-body h1 {
+  font-weight: 700;
+}
+.creator-page-home-body {
+  letter-spacing: 1px;
+}
+.creator-page-cards {
+  width: 290px;
+  line-height: 29px;
+  font-weight: 400;
+}
+.creator-page-cards p {
+  color: #757575;
+}
+.creator-page-how-does > div {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-image: linear-gradient(to right, rgb(239, 239, 244), var(--color-primary-black)) 1;
+
+}
+
+.creator-page-how-does > div > div   {
+  letter-spacing: 4.8px;
+ 
+}
+.border-right-white{
+    border-right: 1px solid white;
+}
+.creator-page-mobile p{
+  line-height: 72px;
+  font-size: 32px;
+}
+.creator-email-input-container{
+  background-color: #063183;
+  border-radius: 7px;
+}
+.creator-com-container{
+  /* top: -300px;
+   */
+   top: -170px;
+   bottom: 0px;
+   right: 200px;
+  
+}

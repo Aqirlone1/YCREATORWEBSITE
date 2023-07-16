@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer'
 function HomePage() {
   return (
     <div>
-      <Navbar/>
+      <Navbar background={"var(--color-primary)"}/>
      <Home/>
      <Brands/>
      <Growth/>

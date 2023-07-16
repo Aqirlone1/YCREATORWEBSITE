@@ -1,13 +1,13 @@
-.header-navbar{
+/* .header-navbar{
     background: var(--color-primary)!important;
    
-}
+} */
 .header-navbar .navbar-nav{
     margin-left: auto;
     margin-right: 50px;
 }
 .header-navbar .navbar-nav .nav-link{
-    color: #FFF!important;
+    color: #FFF;
     font-size: 20px;
     font-family: Lato;
     font-weight: 700;
