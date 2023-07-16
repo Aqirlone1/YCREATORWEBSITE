@@ -1,0 +1,25 @@
+.footer-container{
+color: white;
+text-align: start;
+font-family: 'Lato', sans-serif;
+position: relative;
+
+
+
+}
+.footer-container::before {
+   
+
+content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url("../../icons/box.png");
+
+  background-size: cover; /* Adjust the background-size property as per your preference */
+  background-repeat: no-repeat;
+  z-index: -1; /* Place the pseudo-element behind the content */
+
+}

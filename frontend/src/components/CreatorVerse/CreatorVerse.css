@@ -1,0 +1,14 @@
+.creator-verse-container{
+    color: white;
+  font-family: Lato;
+
+  
+}
+.creator-verse-heading{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.creator-verse-description{
+ padding: 10px 20px;
+}

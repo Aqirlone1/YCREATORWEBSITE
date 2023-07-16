@@ -1,0 +1,16 @@
+.growth-container {
+  background: var(--color-primary) !important;
+  color: white;
+}
+.values {
+  color: #4fe9a4;
+  font-size: 96px;
+  font-family: Manrope;
+  line-height: 56px;
+}
+.values-des{
+  /* Paragraphs/Text M */
+  font-size: 24px;
+
+  line-height: 36px;
+}

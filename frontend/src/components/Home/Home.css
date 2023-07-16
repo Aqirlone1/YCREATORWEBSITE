@@ -1,0 +1,27 @@
+.home-main-container {
+  background: var(--color-primary) !important;
+  border-radius: 0px 0px 30px 30px;
+  min-height: 60vh;
+  font-family: "Work Sans";
+  color: white;
+}
+.home-main-container .home-heading {
+  color: #fff;
+  font-size: 70px;
+  text-align: start;
+  font-family: Work Sans;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -3.2px;
+}
+.home-main-container .home-description {
+  text-align: start;
+  font-family: Work Sans;
+  letter-spacing: 1px;
+  line-height: 26px;
+
+
+}
+.home-main-container img {
+    
+}
