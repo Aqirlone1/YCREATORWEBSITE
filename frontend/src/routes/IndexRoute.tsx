@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from '../pages/HomePage'
 import CreatorPage from '../pages/CreatorPage/CreatorPage'
 import Brand from '../components/Brand/Brand'
+import ContactUs from '../components/ContactUs/ContactUs'
 
 function IndexRoute() {
   return (
@@ -22,9 +23,11 @@ function IndexRoute() {
       />
        <Route
         path="/brand"
-        element={
-        <Brand/>
-      }
+        element={<Brand/>}
+      />
+       <Route
+        path="/contact"
+        element={<ContactUs/>}
       />
     </Routes>
     

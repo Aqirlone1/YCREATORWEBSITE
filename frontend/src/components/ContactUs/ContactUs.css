@@ -1,0 +1,42 @@
+.cardAddress {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.innerCard {
+  width: 250px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+
+}
+
+.heading {
+  font-size: 40px;
+  margin-left: 8rem;
+  margin-bottom: 4rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 20px;
+}
+
+.enquiry {
+  margin-left: 2rem;
+  width: 500px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}

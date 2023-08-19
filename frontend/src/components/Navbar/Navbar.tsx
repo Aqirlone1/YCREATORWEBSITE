@@ -32,16 +32,16 @@ console.log(pathname)
         </button>
         <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
           <div className="navbar-nav  " >
-          <Link className={`nav-link mx-4 ${path=="/"?"active-link":""}`}  to="/">
+          <Link className={`nav-link mx-4 ${path==="/"?"active-link":""}`}  to="/">
               Home
             </Link>
-            <Link className={`nav-link mx-4 ${path=="/brand"?"active-link":""}`} to="/brand">
+            <Link className={`nav-link mx-4 ${path==="/brand"?"active-link":""}`} to="/brand">
               Brand
             </Link>
-            <Link className={`nav-link mx-4 ${path=="/creators"?"active-link":""}`} to="/creators">
+            <Link className={`nav-link mx-4 ${path==="/creators"?"active-link":""}`} to="/creators">
               Creators
             </Link>
-            <Link className={`nav-link mx-4 ${path=="/contact"?"active-link":""}`} to="#">
+            <Link className={`nav-link mx-4 ${path==="/contact"?"active-link":""}`} to="/contact">
               Contact
             </Link>
        
