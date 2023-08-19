@@ -1,0 +1,46 @@
+.body{
+  background: rgba(10, 38, 64, 1);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.cardOne {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  width: 248px;
+  padding: 30px;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.heading {
+  font-size: 30px;
+  width: 510px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  margin-left: 7rem;
+  text-align: start;
+}
+
+.headingtwo {
+  margin-left: 20rem;
+  font-size: 40px;
+  width: 500px;
+}
+
+.imagecard {
+  width: 200px;
+  text-align: start;
+  margin-top:  10px;
+}

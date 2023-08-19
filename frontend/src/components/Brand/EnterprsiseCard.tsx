@@ -1,0 +1,50 @@
+import React from "react"
+import './Enterprise.css'
+import firstImage from './../../icons/Rectangle1270.png'
+import secondImage from './../../icons/Rectangle1272.png'
+import thirdImage from './../../icons/Rectangle1273.png'
+import { Button } from "antd"
+
+const EnterpriseCard = () => {
+return (
+  <>
+  <div className="body">
+  <div className="heading"> An enterprise template to ramp up your company website </div>
+    <div className="cards">
+      <div className="cardOne">
+     <div>YCreator has made Creator Discovery processing so simple for us.</div>
+    </div>
+    <div className="cardOne">
+     <div>We will definitely hand over all our future demands to YCreator to fulfil as they are quality driven.</div>
+    </div>
+    <div className="cardOne">
+     <div>YCreator manages our creator workforce with ease and the experience is quite enjoyable!</div>
+    </div>
+    </div>
+  </div>
+  <div className="container">
+    <p>Our Socials</p>
+    <div className="headingtwo">Value proposition creator management venture</div>
+    <div className="cards">
+    <div className="imagecard"> 
+      <img src={firstImage} alt="icon" width={200} height={200} />
+      <a href="#">Linkedin </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <div>We want to scale among the top and become India’s number 1 creator marketplace</div>
+    </div>
+    <div className="imagecard"> 
+      <img src={secondImage} alt="icon" width={200} height={200} />
+      <a href="#">Product </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <div>We are developing an end to end solution for advertisers scale creator led growth</div>
+    </div>
+    <div className="imagecard"> 
+      <img src={thirdImage} alt="icon" width={200} height={200} />
+      <a href="#">Sales </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <div>We are open for Freemium campaigns to test our Beta Product.</div>
+    </div>
+    </div>
+    <Button style={{borderRadius: "50px", height: 40, width: 170, marginBottom: "10rem", marginTop: "5rem"}}>Learn More</Button>
+  </div>
+  </>
+)
+}
+export default EnterpriseCard

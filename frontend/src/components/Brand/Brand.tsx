@@ -5,10 +5,13 @@ import left_image from "../../icons/image15.png";
 import right_image from "../../icons/image16.png";
 import { Button, Input } from "antd";
 import SocialInfluncingCard from './SocialInfluncingCard';
+import EnterpriseCard from './EnterprsiseCard';
+import  Footer  from './../Footer/Footer';
 
 const Brand = () => {
 
   return(
+    <>
     <div className="creator-page-container">
      <Navbar background="var(--color-primary-black)" />
       <div className="creator-page-home py-4 mt-5">
@@ -83,7 +86,10 @@ const Brand = () => {
         </div>
       </div>
       <SocialInfluncingCard />
+      <EnterpriseCard />
   </div>
+  <Footer />
+  </>
   )
 }
 export default Brand
