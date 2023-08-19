@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from '../pages/HomePage'
 import CreatorPage from '../pages/CreatorPage/CreatorPage'
+import Brand from '../components/Brand/Brand'
 
 function IndexRoute() {
   return (
@@ -14,9 +15,15 @@ function IndexRoute() {
       }
       />
        <Route
-      path="/creators"
-      element={
+        path="/creators"
+        element={
         <CreatorPage/>
+      }
+      />
+       <Route
+        path="/brand"
+        element={
+        <Brand/>
       }
       />
     </Routes>

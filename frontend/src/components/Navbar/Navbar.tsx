@@ -35,7 +35,7 @@ console.log(pathname)
           <Link className={`nav-link mx-4 ${path=="/"?"active-link":""}`}  to="/">
               Home
             </Link>
-            <Link className={`nav-link mx-4 ${path=="/brand"?"active-link":""}`} to="#">
+            <Link className={`nav-link mx-4 ${path=="/brand"?"active-link":""}`} to="/brand">
               Brand
             </Link>
             <Link className={`nav-link mx-4 ${path=="/creators"?"active-link":""}`} to="/creators">

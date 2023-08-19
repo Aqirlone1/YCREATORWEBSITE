@@ -1,0 +1,86 @@
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  text-align: start;
+  width: 700px
+}
+
+.brand-container-body {
+  width: 500px;
+  color: rgba(131, 131, 131, 1)
+}
+
+.input-box {
+  border-radius: 240px;
+  width: 447px;
+  }
+
+.talk-to-sales-button {
+  background: rgba(107, 84, 252, 1);
+  border-radius: 0%;
+}
+
+.talk-to-sales-first {
+  border: 1.5px solid rgba(62, 85, 205, 1);
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  
+}
+
+.text-heading {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 50px;
+}
+
+.check-list {
+  margin-top: 15px;
+  height: 32px;
+  font-size: 20px;
+  line-height: 50px;
+
+}
+
+.button-create {
+  width: 220px; 
+  height: 55px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: rgba(10, 38, 64, 1);
+  border: none;
+  color: white;
+  border-radius: 240px;
+  font-size: 18px;
+  padding: 8px 20px;
+  size: 30px;
+}
+
+.right-image{
+  margin-top: 13rem;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-text {
+  width: 600px;
+  margin-left: 5%;
+}
+
+.text-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
+  height: 40px;
+  width:  400px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
