@@ -5,6 +5,7 @@ import instagramIcon from "../../icons/Instagram_1.png";
 import twitterIcon from "../../icons/Twitter_1.png";
 import YoutubeIcon from "../../icons/Youtube_1.png";
 import './ContactUs.css'
+import { EnvironmentFilled, PhoneFilled } from '@ant-design/icons';
 
 const ContactUs = () => {
   const [gender, setGender] = useState('')
@@ -38,13 +39,13 @@ const genders = [
              <h1 className="heading">Contact us</h1>   
              <div className="cardAddress">
              <div className='innerCard'>
-              <p>Our Address</p>
+              <p>Our Address  <EnvironmentFilled /></p> 
                Chinappaspark view
                1st Cross Rd, Jaibharath Nagar,
                JCO Colony, Bengaluru,
               </div>
              <div className='innerCard'>
-              <p>Call Us</p>
+              <p>Call Us  <PhoneFilled /></p>
                +91 9622222070<br/>
                +91 7814094366
              </div>
