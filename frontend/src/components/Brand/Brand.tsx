@@ -7,7 +7,9 @@ import { Button, Input } from "antd";
 import SocialInfluncingCard from './SocialInfluncingCard';
 import EnterpriseCard from './EnterprsiseCard';
 import  Footer  from './../Footer/Footer';
-import { ArrowRightOutlined, CheckCircleFilled, CheckCircleOutlined, CheckOutlined, EyeOutlined } from '@ant-design/icons';
+import { ArrowRightOutlined, CheckOutlined, EyeOutlined } from '@ant-design/icons';
+import sun from './../../icons/sun.png'
+import feather from './../../icons/feather.png'
 import Brands from '../Brands/Brands';
 
 const Brand = () => {
@@ -79,9 +81,9 @@ const Brand = () => {
           <div className="text-start"  style={{fontWeight: 600, marginBottom: "30px", fontSize: "36px"}}>MANAGE &MEASURE</div>
           <p style={{fontSize: "35px", width: "450px"}}>The YC Advert is designed for volume and performance.
              Manage Creators and Measure the total results of your campaigns through our technology.</p>
-          <p className='text-boxes'> <EyeOutlined style={{marginRight: "15px"}}/> Hit the ground running for Creator Sourcing</p>
-          <p className='text-boxes'> <EyeOutlined style={{marginRight: "15px"}}/>Automated on Campaign Management</p>
-          <p className='text-boxes'> <EyeOutlined style={{marginRight: "15px"}}/>Creator Programs for Freemium Scale</p>
+          <p className='text-boxes'> <EyeOutlined style={{marginRight: "15px",  marginLeft: "10px"}}/> Hit the ground running for Creator Sourcing</p>
+          <p className='text-boxes'>  <img src={sun} alt='' width={20} height={20}  style={{marginRight: "15px",  marginLeft: "10px"}}/> Automated on Campaign Management</p>
+          <p className='text-boxes'>  <img src={feather} alt='' width={20} height={20}  style={{marginRight: "15px", marginLeft: "10px"}}/> Creator Programs for Freemium Scale</p>
         </div>
         <div className="right-image">
          <img src={right_image} alt="icon" width={700} height={606} />

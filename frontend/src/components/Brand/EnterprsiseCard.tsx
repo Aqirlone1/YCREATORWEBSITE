@@ -38,7 +38,7 @@ return (
     </div>
   </div>
   <div className="container">
-    <p>Our Socials</p>
+    <p style={{color: "rgba(119, 119, 119, 1)"}}>Our Socials</p>
     <div className="headingtwo">Value proposition creator management venture</div>
     <div className="cards">
     <div className="imagecard"> 
