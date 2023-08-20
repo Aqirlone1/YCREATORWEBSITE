@@ -4,8 +4,34 @@ import HomePage from '../pages/HomePage'
 import CreatorPage from '../pages/CreatorPage/CreatorPage'
 import Brand from '../components/Brand/Brand'
 import ContactUs from '../components/ContactUs/ContactUs'
+import useDocumentTitle from './../components/useDocumentTitle'
+
 
 function IndexRoute() {
+  
+// function Page(props: any) {
+//   return <h2>{props.content}</h2>
+// }
+
+// function HomePage() {
+//   useDocumentTitle('Home')
+//   return <Page content='HoMe!' />
+// }
+
+// function Brand() {
+//   useDocumentTitle('Brand')
+//   return <Page content='Brand!' />
+// }
+
+// function ContactUs() {
+//   useDocumentTitle('Contact Us')
+//   return <Page content='Contact Us' />
+// }
+
+// function CreatorPage() {
+//   useDocumentTitle('Creator')
+//   return <Page content='Contact Us!' />
+// }
   return (
     <BrowserRouter>
     <Routes>

@@ -1,14 +1,16 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import { Button, Input, Select } from "antd"
 import fbIcon from "../../icons/Facebook_1.png";
 import instagramIcon from "../../icons/Instagram_1.png";
 import twitterIcon from "../../icons/Twitter_1.png";
 import YoutubeIcon from "../../icons/Youtube_1.png";
 import './ContactUs.css'
+import useDocumentTitle from '../useDocumentTitle';
 
 const ContactUs = () => {
   const [gender, setGender] = useState('')
   const [state, setState] = useState('')
+  useDocumentTitle('Contact us')
 
 const states = [
   {label: "Andhra Pradesh", value: "Andhra Pradesh"},

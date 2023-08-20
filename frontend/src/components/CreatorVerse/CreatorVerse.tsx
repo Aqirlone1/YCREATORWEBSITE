@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CreatorVerse.css";
 import { Button, Card, Carousel } from "antd";
 import Meta from "antd/es/card/Meta";
@@ -10,8 +10,11 @@ import {
   LeftOutlined,
   RightOutlined,
 } from "@ant-design/icons";
+import useDocumentTitle from "../useDocumentTitle";
 
 function CreatorVerse() {
+useDocumentTitle('Creators')
+
   const products = [
     {
       title: <span style={{ color: "white" }}>Fashion</span>,

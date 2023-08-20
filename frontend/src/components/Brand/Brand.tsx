@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from "../../components/Navbar/Navbar";
 import './Brand.css'
 import left_image from "../../icons/image15.png";
@@ -11,8 +11,10 @@ import { ArrowRightOutlined, CheckOutlined, EyeOutlined } from '@ant-design/icon
 import sun from './../../icons/sun.png'
 import feather from './../../icons/feather.png'
 import Brands from '../Brands/Brands';
+import useDocumentTitle from '../useDocumentTitle';
 
 const Brand = () => {
+useDocumentTitle('Brand')
 
   return(
     <>
