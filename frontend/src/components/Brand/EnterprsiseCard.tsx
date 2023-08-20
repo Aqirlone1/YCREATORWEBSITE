@@ -42,18 +42,18 @@ return (
     <div className="headingtwo">Value proposition creator management venture</div>
     <div className="cards">
     <div className="imagecard"> 
-      <img src={firstImage} alt="icon" width={250} height={200} style={{marginBottom: "13px"}} />
-      <a href="#">Linkedin </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <img src={firstImage} alt="icon" width={250} height={180} style={{marginBottom: "13px"}} />
+      <a href="#" style={{color: "rgba(10, 38, 64, 1)"}}>Linkedin </a><span style={{color: "gray", marginLeft: "5px"}}> March 22, 2023</span>
       <div style={{marginTop: "10px"}}>We want to scale among the top and become India’s number 1 creator marketplace</div>
     </div>
     <div className="imagecard"> 
-      <img src={secondImage} alt="icon" width={250} height={200}  style={{marginBottom: "13px"}} />
-      <a href="#">Product </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <img src={secondImage} alt="icon" width={250} height={180}  style={{marginBottom: "13px"}} />
+      <a href="#"  style={{color: "rgba(10, 38, 64, 1)"}}>Product </a><span style={{color: "gray", marginLeft: "5px"}}> March 22, 2023</span>
       <div style={{marginTop: "10px"}}>We are developing an end to end solution for advertisers scale creator led growth</div>
     </div>
     <div className="imagecard"> 
-      <img src={thirdImage} alt="icon" width={250} height={200}  style={{marginBottom: "13px"}}/>
-      <a href="#">Sales </a><span style={{color: "gray"}}> March 22, 2023</span>
+      <img src={thirdImage} alt="icon" width={250} height={180}  style={{marginBottom: "13px"}}/>
+      <a href="#"  style={{color: "rgba(10, 38, 64, 1)"}}>Sales </a><span style={{color: "gray", marginLeft: "5px"}}> March 22, 2023</span>
       <div style={{marginTop: "10px"}}>We are open for Freemium campaigns to test our Beta Product.</div>
     </div>
     </div>

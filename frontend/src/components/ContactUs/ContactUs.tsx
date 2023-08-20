@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import { Button, Input, Select } from "antd"
 import fbIcon from "../../icons/Facebook_1.png";
 import instagramIcon from "../../icons/Instagram_1.png";
@@ -6,10 +6,12 @@ import twitterIcon from "../../icons/Twitter_1.png";
 import YoutubeIcon from "../../icons/Youtube_1.png";
 import './ContactUs.css'
 import { EnvironmentFilled, PhoneFilled } from '@ant-design/icons';
+import useDocumentTitle from '../useDocumentTitle';
 
 const ContactUs = () => {
   const [gender, setGender] = useState('')
   const [state, setState] = useState('')
+  useDocumentTitle('Contact us')
 
 const states = [
   {label: "Andhra Pradesh", value: "Andhra Pradesh"},
@@ -100,26 +102,30 @@ const genders = [
       </div>
       <div className="inputBox">
       <div style={{fontWeight: 500, fontSize: "20px"}} className='text-start'> First, We Need A Little Information... </div>
-          <Select  
-            placeholder="I would describe myself as..."
-            options={genders}
-            onChange={(value) => {
-              setGender(value);
-            }}
-          />
+          <div className="custom-select">
+          <select>
+          <option value="" disabled selected>I would describe myself as...</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div className="arrowOne"></div>
       <div className="input">
         <Input className='customSelect'  placeholder="First Name" />
         <Input  className='customSelectLastName' placeholder="Last Name" />
       </div>
       <div className="d-flex flex-direction-row">
-        <Input className='customSelect' placeholder="Phone Number" />
-        <Select style={{width: 400}}
-          placeholder="State"
-          options={states}
-          onChange={(value) => {
-            setState(value);
-          }}
-        />
+        <Input className='customSelectPhoneNumber' placeholder="Phone Number" />
+         <div className="custom-select-state">
+          <select className='text-start'>
+          <option value="" disabled selected>State</option>
+            <option>J & K</option>
+            <option>Haryana</option>
+            <option>Punjab</option>
+          </select>
+        </div>
+        <div className="arrowTwo"></div>
       </div>
       <Input className='customSelect' placeholder="How can i help you ?" />
       <Button className="submitButton" type="primary"> Submit </Button>

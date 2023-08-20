@@ -96,6 +96,19 @@ p {
   width: 100%;
 }
 
+
+.customSelectPhoneNumber {
+  margin-right: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Add a line below the select */
+  border-radius: 0; /* Remove any border-radius to make the line straight */
+  appearance: none; /* Remove default styling on certain browsers */
+  background-color: transparent; /* Optional: Make the background transparent */
+  padding: 5px 0; /* Add padding as needed */
+  font-size: 16px; /* Add font size as needed */
+  width: 210px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -104,4 +117,70 @@ p {
 
 .icons {
   margin: 20px;
+}
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.custom-select-state {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.custom-select-state select {
+  color: grey;
+  margin-left: 50px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  width: 200px; 
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.arrowTwo {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #000 transparent transparent;
+  position: absolute;
+  top: 56%;
+  right: 50px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.arrowOne {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #000 transparent transparent;
+  position: absolute;
+  top: 30%;
+  right: 50px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Allow clicking through the arrow */
+}
+
+
+.custom-select select {
+  color: grey;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  width: 450px; 
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
 }

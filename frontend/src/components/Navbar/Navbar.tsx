@@ -12,6 +12,7 @@ function Navbar({background}:propType) {
 setPath(pathname)
 console.log(pathname)
   },[pathname])
+  
  
   return (
     <nav className="navbar header-navbar navbar-expand-lg pt-4 " style={{background}}>

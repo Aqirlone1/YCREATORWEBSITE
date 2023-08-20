@@ -4,8 +4,11 @@ import HomePage from '../pages/HomePage'
 import CreatorPage from '../pages/CreatorPage/CreatorPage'
 import Brand from '../components/Brand/Brand'
 import ContactUs from '../components/ContactUs/ContactUs'
+import useDocumentTitle from './../components/useDocumentTitle'
+
 
 function IndexRoute() {
+
   return (
     <BrowserRouter>
     <Routes>

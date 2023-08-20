@@ -3,7 +3,10 @@ import "./Home.css";
 import ycIcon from "../../icons/yc.png";
 import { Button } from "antd";
 import youtubeIcon from "../../icons/youtube.png"
+import useDocumentTitle from "../useDocumentTitle";
 function Home() {
+useDocumentTitle('Home')
+
   return (
     <div className="home-main-container container-fluid">
       <div className="row p-5" >
