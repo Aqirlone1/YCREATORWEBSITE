@@ -12,13 +12,22 @@
   margin-top: 40px;
   margin-bottom: 30px;
 }
+.avatar {
+  /* position: absolute; */
+}
 
+.socialComment {
+  display: flex;
+  flex-direction: row;
+}
 .cardOne {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 8px;
   color: black;
-  width: 248px;
-  padding: 30px;
+  width: 300px;
+  padding: 26px;
   margin-top: 30px;
   align-items: center;
   margin-left: 30px;
@@ -34,13 +43,15 @@
 }
 
 .headingtwo {
-  margin-left: 20rem;
-  font-size: 40px;
-  width: 500px;
+  margin-left: 23rem;
+  font-size: 48px;
+  width: 600px;
 }
 
 .imagecard {
-  width: 200px;
+  width: 250px;
   text-align: start;
   margin-top:  10px;
+  line-height: 30px;
+  gap: 12px;
 }
