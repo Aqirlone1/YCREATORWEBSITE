@@ -14,11 +14,14 @@
 .input-box {
   border-radius: 240px;
   width: 447px;
+  height: 58px;
   }
 
 .talk-to-sales-button {
   background: rgba(107, 84, 252, 1);
   border-radius: 0%;
+  height: 55px;
+  width: 200px;
 }
 
 .talk-to-sales-first {
@@ -38,7 +41,26 @@
   font-size: 50px;
 }
 
+.tick {
+  display: inline-block;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(10, 38, 64, 1); 
+  border-radius: 50%;
+  border: 1px solid rgba(10, 38, 64, 1)blue; 
+  margin-right: 20px;
+}
+
+.tick-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .check-list {
+  display: flex;
+  flex-direction: column;
   margin-top: 15px;
   height: 32px;
   font-size: 20px;
@@ -49,8 +71,8 @@
 .button-create {
   width: 220px; 
   height: 55px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   background: rgba(10, 38, 64, 1);
   border: none;
   color: white;
@@ -67,6 +89,10 @@
   flex-direction: column;
 }
 
+.headingText{
+ font-size: 50px;
+}
+
 .box-text {
   width: 600px;
   margin-left: 5%;
@@ -75,12 +101,22 @@
 .text-boxes {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  font-size: 13px;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 15px;
   font-weight: 600;
-  height: 40px;
-  width:  400px;
+  height: 50px;
+  width:  430px;
   border-radius: 4px;
   background-color: white;
   color: black;
 }
+
+.rightSideText{
+  margin-top: 50px;
+   font-weight: 350;
+   font-size: 30px;
+   width: 600px;
+   font-family: Lato;
+}
+
