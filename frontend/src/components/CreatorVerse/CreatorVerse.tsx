@@ -80,8 +80,8 @@ function CreatorVerse() {
                   <img
                     alt={"icon"}
                     src={product.image}
-                    height={704}
-                    width={524}
+                    height={550}
+                    width={510}
                   />
                 }
               >
